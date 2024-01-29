@@ -96,6 +96,8 @@ function resetGame(){
     winner=false;
     xTurn=true;
     playerTurnHeading.innerHTML="X's Turn"
+    winnerNews.innerHTML = ``;
+    winnerImageSource.src = '';
 }
 
 // Adding new Game functionality
